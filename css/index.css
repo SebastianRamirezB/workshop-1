@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
+
+:root {
+
+    --bs-primary-text-emphasis: #FA7436;
+    --bs-primary-rgb: 250, 116, 54;
+   
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-carousel-right, .button-carousel-left {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.button-carousel-left {
+    border: 1px solid #999999;
+    background-color: white;
+}
+.button-carousel-right{
+    border: 1px solid #FA7436;
+    background-color: #FA7436;
+}
+.title-volkhov {
+    font-family: 'Volkhov', serif;
+}
+
+
+.section-best {
+    height: 893px;
+   
+}
+
+.palms-position {
+    right: -140px;
+}
+
+.article-best-vacation {
+    max-width: 370px;
+    height: 447px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    border-radius: 1rem;
+    overflow: hidden;
+    background: #fefcfb;
+    box-shadow: 0px 16px 80px 0px rgba(254, 147, 94, 0.2);
+}
+.article-best-vacation-img {
+    width: 100%;
+    height: 327px;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+.icon-start {
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+}
