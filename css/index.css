@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css?family=Volkhov');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+:root {
+    --bs-primary-text-emphasis: #FA7436;
+    --bs-blue: #FA7436;
+    --bs-primary: #FA7436;
+    --bs-primary-rgb: 250, 116, 54;
+
+}
+
+.logo {
+
+    & .title {
+        font-family: Volkhov;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.5rem;
+        /* 100% */
+        letter-spacing: 0.009rem;
+    }
+
+    & img {
+        width: 1.1875rem;
+        height: 1.1875rem;
+    }
+}
+
+.menu-list li {
+    font-family: Poppins;
+    padding-right: 2rem;
+}
+
+.login-signUp {
+    font-family: Poppins;
+
+    & a {
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding-right: 3.5rem;
+        text-decoration: none;
+    }
+
+    & button {
+        border: none;
+        width: 10rem;
+        height: 3.125rem;
+        flex-shrink: 0;
+        border-radius: 0.3125rem;
+        box-shadow: 0px 8px 16px 0px rgba(250, 116, 54, 0.24);
+        font-family: Poppins;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        background: #FA7436;
+    }
+}
+
+.starter {
+
+    & .starter-title h1 {
+
+        width: 32.5625rem;
+        color: #222;
+        font-family: Volkhov;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 4.375rem;
+    }
+
+    & .starter-desription p {
+        width: 31.0625rem;
+        font-family: Poppins;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.5rem;
+    }
+
+    & .starter-button {
+        border: 1px solid #FA7436;
+        background-color: transparent;
+        padding: 0.875rem 1.75rem;
+        font-family: Poppins;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 2rem;
+    }
+}
+
+.tourist {
+    & .img-planes {
+        position: absolute;
+        width: 49.06169rem;
+        height: 11.93794rem;
+        transform: translate(8%, -20%);
+        z-index: 0;
+    }
+
+    & .img-tourist {
+        width: 28.125rem;
+        height: 33.125rem;
+        z-index: 1;
+    }
+
+    & .elipse {
+        position: absolute;
+        width: 31.25rem;
+        height: 15.625rem;
+        border-radius: 0 0 250px 250px;
+        background-color: #FA7436;
+        transform: translate(0%, 112%);
+        z-index: 0;
+    }
+
+    & .achievements {
+        position: absolute;
+        z-index: 3;
+
+        & .trophy {
+            justify-content: center;
+            transform: translate(-105%, 182%);
+            box-shadow: -8px 8px 40px 0px rgba(0, 0, 0, 0.05);
+        }
+
+        & .google-maps {
+            justify-content: center;
+            transform: translate(120%, 280%);
+            box-shadow: 8px 8px 40px 0px rgba(0, 0, 0, 0.05);
+        }
+
+        & .star {
+            justify-content: center;
+            transform: translate(-70%, 365%);
+            box-shadow: -8px 8px 40px 0px rgba(0, 0, 0, 0.05);
+        }
+
+        & .achievement-item {
+
+            height: 4.125rem;
+            display: flex;
+            background-color: white;
+            border-radius: 0.625rem;
+
+            & .achievement-text {
+
+                display: flex;
+                flex-direction: column;
+                margin-left: 0.5rem;
+                margin-right: 1rem;
+
+                & span {
+                    color: #666;
+                    font-family: Poppins;
+                    font-size: 0.75rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 1rem;
+                }
+
+                & .text-secondary-google-maps {
+                    width: 7.3125rem;
+                }
+
+                & .title {
+                    width: 4.75rem;
+                    color: #444;
+                    text-align: start;
+                    font-size: 1rem;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+
+        }
+
+        & img {
+            margin-left: 1rem;
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+}
+
+.search-bar {
+    flex-shrink: 0;
+    margin-left: 14rem;
+    margin-right: 14rem;
+    height: 7.75rem;
+    border-radius: 0.625rem;
+    background: #FFF;
+    box-shadow: 0px 2px 80px 2px rgba(0, 0, 0, 0.06);
+
+    & .col {
+        width: 52.5625rem;
+
+        & div {
+            font-family: Poppins;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 1000;
+            line-height: normal;
+            padding-right: 6rem;
+            color: #666;
+
+            & span {
+                font-family: Poppins;
+                font-size: 0.75rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+        & button {
+            height: 3.75rem;
+            padding: 0.875rem 1.75rem;
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 1.125rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 2rem;
+            border-radius: 0.3125rem;
+            background: var(--Primary-O, #FA7436);
+            box-shadow: 0px 8px 16px 0px rgba(250, 116, 54, 0.16);
+            flex-shrink: 0;
+
+        }
+    }
+}
+
+.things-section {
+
+    margin-top: 8rem;
+    background-color: #F7F8FC;
+
+    & .to-do {
+
+        & .content {
+            margin: 8rem 14rem 8rem 14rem;
+
+            & .title-text {
+
+                & .title {
+                    font-family: Volkhov;
+                    font-size: 3rem;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 3.375rem;
+                }
+
+                & .text {
+                    width: 30.125rem;
+                    font-family: Poppins;
+                    font-size: 1.125rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 2rem;
+                    color: #666;
+                }
+
+                & img {
+                    position: absolute;
+                    transform: translate(230%, -10%);
+                }
+            }
+
+            & .cards {
+
+                & .card {
+                    border-radius: 0.5rem;
+                    border: 2px solid rgba(102, 102, 102, 0.08);
+                    background: #FFF;
+                    padding: 1rem;
+                    width: 23.125rem;
+                    height: 17.375rem;
+
+                    & .line {
+                        height: 100%;
+                        width: 100%;
+                        top: 0;
+                        left: 0;
+                        flex-shrink: 0;
+                        position: absolute;
+                        z-index: 0;
+                    }
+
+                    & .card-body {
+                        z-index: 1;
+
+                        & img {
+                            width: 3rem;
+                            height: 3rem;
+                            flex-shrink: 0;
+                            margin-bottom: 3.5rem;
+                        }
+
+                        & h4 {
+                            font-family: Poppins;
+                            font-size: 1.5rem;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 2.125rem;
+                        }
+
+                        & p {
+                            width: 18.125rem;
+                            font-family: Poppins;
+                            font-size: 1rem;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 1.625rem;
+                            color: #666;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.exclusive-section {
+
+    margin-top: 0rem;
+
+    & .deals {
+
+        & .content {
+            margin: 8rem 14rem 8rem 14rem;
+
+            & .title-text {
+
+                & .title {
+                    font-family: Volkhov;
+                    font-size: 3rem;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 3.375rem;
+                }
+
+                & .text {
+                    width: 30.125rem;
+                    font-family: Poppins;
+                    font-size: 1.125rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 2rem;
+                    color: #666;
+                }
+
+                & img {
+                    position: absolute;
+                    transform: translate(230%, -10%);
+                }
+            }
+
+            & .cards {
+
+                & .card {
+
+                    border-radius: 0.5rem;
+                    border: 2px solid rgba(102, 102, 102, 0.08);
+                    background: #FFF;
+                    width: 16.875rem;
+                    height: 26.625rem;
+
+                    & button {
+                        z-index: 2;
+                        position: absolute;
+                        transform: translate(50%, 400%);
+                        padding: 0.5625rem 1.3125rem 0.5625rem 1.375rem;
+                        background-color: #FA7436;
+                        color: white;
+                        font-family: Poppins;
+                        font-size: 1.125rem;
+                        font-style: normal;
+                        font-weight: 400;
+                    }
+
+                    & img {
+                        object-fit: cover;
+                        height: 18.125rem;
+                        z-index: 1;
+                    }
+
+                    & .card-body {
+                        & img {
+                            width: 1rem;
+                            height: 1rem;
+                        }
+
+                        & .calification {
+                            & img {
+                                margin-bottom: 3px;
+                            }
+                        }
+
+                        & span {
+
+                            font-family: Poppins;
+                            font-size: 1rem;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 1.5rem;
+                            color: #666;
+
+                        }
+
+                        & .city {
+                            font-family: Poppins;
+                            font-size: 1.5rem;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 1.625rem;
+                        }
+
+                        & .price {
+
+                            & span {
+                                padding: auto;
+                                font-family: Poppins;
+                                font-size: 1rem;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 1.5rem;
+
+                            }
+
+                            & .real {
+                                color: #999;
+                            }
+
+                            & .discount {
+                                padding: 3px;
+                                border-radius: 0.5rem;
+                                background: #FFE7DB;
+                            }
+                        }
+
+                    }
+                }
+
+                & .card:hover {
+                    box-shadow: 0px 16px 80px 0px rgba(254, 147, 94, 0.20);
+
+                    & button {
+                        display: inline !important;
+                    }
+                    & .card-img-top{
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+    }
+}
