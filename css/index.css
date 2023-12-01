@@ -13,6 +13,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+}
+
 .button-carousel-right, .button-carousel-left {
     width: 40px;
     height: 40px;
@@ -63,3 +69,44 @@ body {
     height: 16px;
     object-fit: cover;
 }
+
+
+
+.section-people-about {
+    height: 596px;
+    background: #F7F8FC;
+}
+
+.card-people-about {
+    width: 505px;
+    height: 245px;
+    padding: 28px 68px 34px 34px;
+    display: flex;
+    flex-direction: column; 
+    gap: 2.125rem;
+    border-radius: 10px;
+}
+
+.avatar-people-about {
+    width: 68px; 
+    height: 68px; 
+    position: absolute; 
+    top: -40px; 
+    left: -40px; 
+    z-index: 1;
+}
+
+
+.card-people-about-active {
+    position: absolute;
+    top: 0;
+    background-color: white;
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+
+.card-people-about-disabled {
+    margin-top: 6.5rem;
+    margin-left: 3rem;
+    box-shadow: 0px 10px 30px 0px rgba(34, 34, 34, 0.35);
+}
+
