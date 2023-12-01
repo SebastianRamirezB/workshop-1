@@ -461,4 +461,18 @@
             }
         }
     }
+    .button-carousel-right, .button-carousel-left {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+    }
+    
+    .button-carousel-left {
+        border: 1px solid #999999;
+        background-color: white;
+    }
+    .button-carousel-right{
+        border: 1px solid #FA7436;
+        background-color: #FA7436;
+    }
 }
