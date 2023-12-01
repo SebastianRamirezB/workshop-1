@@ -1,13 +1,115 @@
-@import url('https://fonts.googleapis.com/css?family=Volkhov');
-@import url('https://fonts.cdnfonts.com/css/poppins');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
 
 :root {
-    --bs-primary-text-emphasis: #FA7436;
-    --bs-blue: #FA7436;
-    --bs-primary: #FA7436;
-    --bs-primary-rgb: 250, 116, 54;
 
+    --bs-primary-text-emphasis: #FA7436;
+    --bs-primary-rgb: 250, 116, 54;  
 }
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.button-carousel-right, .button-carousel-left {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.button-carousel-left {
+    border: 1px solid #999999;
+    background-color: white;
+}
+.button-carousel-right{
+    border: 1px solid #FA7436;
+    background-color: #FA7436;
+}
+.title-volkhov {
+    font-family: 'Volkhov', serif;
+}
+
+
+.section-best {
+    height: 893px;
+   
+}
+
+.palms-position {
+    right: -140px;
+}
+
+.article-best-vacation {
+    max-width: 370px;
+    height: 447px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    border-radius: 1rem;
+    overflow: hidden;
+    background: #fefcfb;
+    box-shadow: 0px 16px 80px 0px rgba(254, 147, 94, 0.2);
+}
+.article-best-vacation-img {
+    width: 100%;
+    height: 327px;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+.icon-start {
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+}
+
+
+
+.section-people-about {
+    height: 596px;
+    background: #F7F8FC;
+}
+
+.card-people-about {
+    width: 505px;
+    height: 245px;
+    padding: 28px 68px 34px 34px;
+    display: flex;
+    flex-direction: column; 
+    gap: 2.125rem;
+    border-radius: 10px;
+}
+
+.avatar-people-about {
+    width: 68px; 
+    height: 68px; 
+    position: absolute; 
+    top: -40px; 
+    left: -40px; 
+    z-index: 1;
+}
+
+
+.card-people-about-active {
+    position: absolute;
+    top: 0;
+    background-color: white;
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+
+.card-people-about-disabled {
+    margin-top: 6.5rem;
+    margin-left: 3rem;
+    box-shadow: 0px 10px 30px 0px rgba(34, 34, 34, 0.35);
+}
+
 
 .logo {
 
@@ -467,7 +569,7 @@
         border-radius: 100%;
     }
     
-    .button-carousel-left {
+    -carousel-left {
         border: 1px solid #999999;
         background-color: white;
     }
@@ -476,3 +578,4 @@
         background-color: #FA7436;
     }
 }
+
